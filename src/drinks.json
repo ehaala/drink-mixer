@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Screwdriver",
+      "ingredients": [
+        "Orange Juice",
+        "Vodka"
+      ]
+    }, {
+      "id": 2,
+      "name": "Vodka Red Bull",
+      "ingredients": [
+        "Red Bull",
+        "Vodka"
+      ]
+    }
+]
