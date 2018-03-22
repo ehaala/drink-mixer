@@ -3,8 +3,6 @@ import { Button, Row, Col, MenuItem } from 'react-bootstrap';
 import './App.css';
 import SelectOptions from './SelectOptions';
 
-var drinks = require('./drinks.json');
-
 class App extends Component {
   render() {
     return (
