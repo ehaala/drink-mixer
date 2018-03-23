@@ -3,7 +3,10 @@ import { Button, Row, Col, MenuItem } from 'react-bootstrap';
 
 import Result from './Result';
 
-var ingredients = require('./ingredients.json');
+const styles = {
+	padding: '20px'
+}
+let ingredients = require('./ingredients.json');
 
 class SelectOptions extends Component {
 	constructor(props) {

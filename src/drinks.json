@@ -33,5 +33,14 @@
         "Gin",
         "Orange Juice"
       ]
+    }, {
+      "id": 5,
+      "name": "Elephant",
+      "image": "http://www.shakeitdrinkit.com/recette/elephant-cocktail-232.png",
+      "ingredients": [
+        "Vodka",
+        "Orange Juice",
+        "Pineapple Juice"
+      ]
     }
 ]
