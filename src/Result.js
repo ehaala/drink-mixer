@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { Button, Row, Col, MenuItem } from 'react-bootstrap';
 
-var drinks = require('./drinks.json');
+let drinks = require('./drinks.json');
 
 class Result extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			drinks: []
+			drinks: [],
+			index: 0
 		}
 
 		this.mixDrink = this.mixDrink.bind(this);
@@ -15,14 +16,17 @@ class Result extends Component {
 
 	mixDrink() {
 		let results = [];
+		let random = 0;
 		for (var i=0; i<drinks.length; i++) {
 			let arr = drinks[i].ingredients;
 			if (arr.includes(this.props.iOne) && arr.includes(this.props.iTwo)) {
 				results.push(drinks[i]);
 			}
+			random = Math.floor(Math.random()*(results.length));
 		}
 		this.setState({
-			drinks: results
+			drinks: results,
+			index: random
 		})
 	}
 
@@ -30,8 +34,10 @@ class Result extends Component {
 		return (
 			<Row>
 				<Button bsStyle="info" onClick={this.mixDrink}>Mix!</Button>
+				<br />
+				<p>{this.state.drinks.length} result(s)</p>
 				<hr />
-				<img className="ingredientPic" src={this.state.drinks.length > 0 && this.state.drinks[0].image} />
+				<img className="ingredientPic" src={this.state.drinks.length > 0 && this.state.drinks[this.state.index].image} />
 			</Row>
 		)
 	}

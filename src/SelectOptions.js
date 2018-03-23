@@ -60,6 +60,7 @@ class SelectOptions extends Component {
 	      		<select id="ingredientOne" name="ingredientOne" value={this.state.ingredientOne} onChange={this.selectIngredientOne}>
 	      			<option value="null" id="null">Select Type</option>
 	      			<option value="Vodka" id="Vodka">Vodka</option>
+	      			<option value="Gin" id="Gin">Gin</option>
 	      		</select>
 	      	</fieldset>
 	      	<hr />
