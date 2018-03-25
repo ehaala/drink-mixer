@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { Button, Row, Col, MenuItem } from 'react-bootstrap';
 
 const styles = {
-	background: 'lightgray',
+	background: 'black',
 	padding: '20px',
-	border: 'solid gray 1px'
+	border: 'solid white 1px',
 }
 let drinks = require('./drinks.json');
 
