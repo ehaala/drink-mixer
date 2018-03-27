@@ -70,11 +70,7 @@ class SelectOptions extends Component {
 	      	<img className="ingredientPic" src={this.state.backOne} />
 				</Col>
 
-				<Col xs={12} sm={4}>
-					<Result iOne={this.state.ingredientOne} iTwo={this.state.ingredientTwo} />
-				</Col>
-
-				<Col xs={12} sm={3}>
+				<Col xs={12} sm={3} smPush={4}>
 	      	<fieldset>
 	      		<label for="ingredientTwo">Non-Alcoholic</label>
 	      		<br />
@@ -87,6 +83,11 @@ class SelectOptions extends Component {
 	      	<hr />
 	      	<img className="ingredientPic" src={this.state.backTwo} />
 				</Col>
+
+				<Col xs={12} sm={4} smPull={3}>
+					<Result iOne={this.state.ingredientOne} iTwo={this.state.ingredientTwo} />
+				</Col>
+
 				<Col sm={1}></Col>
 			</Row>
 		)
