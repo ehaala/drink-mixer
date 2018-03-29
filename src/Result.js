@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { Button, Row, Col, MenuItem } from 'react-bootstrap';
 
 const styles = {
-	background: 'rgba(0,0,0,.5)',
+	background: 'rgba(0, 0, 0, .4)',
 	padding: '20px',
 	border: 'solid black 1px',
+	marginTop: '10px'
 }
 let drinks = require('./drinks.json');
 
@@ -52,13 +53,18 @@ class Result extends Component {
 	render () {
 		return (
 			<Row style={styles}>
-				<Button bsStyle="info" onClick={this.mixDrink}>Mix!</Button>
-				<br />
+				<Button className="frijole" onClick={this.mixDrink}>Mix!</Button>
+				<hr />
 				{this.state.drinks.length > 0 && <p>Results: {this.state.index + 1} of {this.state.drinks.length}</p>}
-				<hr />
 				<img className="ingredientPic" src={this.state.drinks.length > 0 && this.state.drinks[this.state.index].image} />
+				{this.state.drinks.length === 0 && 
+					<div>
+					<h1>Welcome to Drink Mixer!</h1>
+					<p>Select two ingredients and let the mixing begin!</p>
+					</div>
+				}
 				<hr />
-				<Button bsStyle="info" onClick={this.nextDrink}>Next!</Button>
+				{this.state.drinks.length > 0 && <Button className="frijole" onClick={this.nextDrink}>Next!</Button>}
 			</Row>
 		)
 	}

@@ -56,9 +56,9 @@ class SelectOptions extends Component {
 		return (
 			<Row>
 				<Col sm={1}></Col>
-				<Col xs={12} sm={3}>
+				<Col xs={6} sm={3}>
 	      	<fieldset>
-	      		<label for="ingredientOne">Alcoholic</label>
+	      		<label htmlFor="ingredientOne">Alcoholic</label>
 	      		<br />
 	      		<select id="ingredientOne" name="ingredientOne" value={this.state.ingredientOne} onChange={this.selectIngredientOne}>
 	      			<option value="null" id="null">Select Type</option>
@@ -70,13 +70,14 @@ class SelectOptions extends Component {
 	      	<img className="ingredientPic" src={this.state.backOne} />
 				</Col>
 
-				<Col xs={12} sm={3} smPush={4}>
+				<Col xs={6} sm={3} smPush={4}>
 	      	<fieldset>
-	      		<label for="ingredientTwo">Non-Alcoholic</label>
+	      		<label htmlFor="ingredientTwo">Non-Alcoholic</label>
 	      		<br />
 	      		<select id="ingredientTwo" name="ingredientTwo" value={this.state.ingredientTwo} onChange={this.selectIngredientTwo}>
 	      			<option value="null" id="null">Select Type</option>
 	      			<option value="Orange Juice" id="Orange Juice">Orange Juice</option>
+	      			<option value="Pineapple Juice" id="Pineapple Juice">Pineapple Juice</option>
 	      			<option value="Red Bull" id="Red Bull">Red Bull</option>
 	      		</select>
 	      	</fieldset>

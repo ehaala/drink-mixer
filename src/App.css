@@ -3,16 +3,14 @@ html,body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-/*  overflow-x: hidden; */
+  overflow-x: hidden; 
 }
 
 body {
   font-weight: light;
   color: white;
   text-align: center;
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FF070B, #E5008D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FF070B, #E5008D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #FF070B, #E5008D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1 {
@@ -22,10 +20,32 @@ h1 {
 
 select {
   background: black;
+  font-size: 1.2em;
+  border: solid white 1px;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #E5008D;
 }
 
 .ingredientPic {
   max-height: 90%;
   max-width: 90%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.padding {
+  padding: 20px;
+}
+
+.frijole {
+  font-family: 'Frijole', arial;
 }

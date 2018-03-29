@@ -42,5 +42,43 @@
         "Orange Juice",
         "Pineapple Juice"
       ]
+    }, {
+      "id": 6,
+      "name": "Chi-chi",
+      "image": "http://www.shakeitdrinkit.com/recette/chi-chi-cocktail-1565.png",
+      "ingredients": [
+        "Vodka",
+        "Coconut Cream",
+        "Pineapple Juice"
+      ]
+    }, {
+      "id": 7,
+      "name": "Taj Mahal",
+      "image": "http://www.shakeitdrinkit.com/recette/taj-mahal-cocktail-2265.png",
+      "ingredients": [
+        "Vodka",
+        "Pisang Ambon",
+        "Pineapple Juice",
+        "Lime Juice"
+      ]
+    }, {
+      "id": 8,
+      "name": "Jamaican Sunrise",
+      "image": "http://www.shakeitdrinkit.com/recette/jamaican-sunrise-cocktail-677.png",
+      "ingredients": [
+        "Vodka",
+        "Grenadine",
+        "Pineapple Juice"
+      ]
+    } , {
+      "id": 9,
+      "name": "Mirage",
+      "image": "http://www.shakeitdrinkit.com/recette/mirage-cocktail-1914.png",
+      "ingredients": [
+        "Gin",
+        "Lemon Juice",
+        "Pineapple Juice",
+        "Grenadine"
+      ]
     }
 ]
