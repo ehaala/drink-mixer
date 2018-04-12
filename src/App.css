@@ -10,7 +10,7 @@ body {
   font-weight: light;
   color: white;
   text-align: center;
-  background: linear-gradient(to left, #FF070B, #E5008D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #FF070B, #E5008D, #282828); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
 }
 
 select {
-  background: black;
+  background: #282828;
   font-size: 1.2em;
   border: solid white 1px;
 }

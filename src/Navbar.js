@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 const styles = {
-	height: '40px',
-	padding: '5px',
-	background: 'black',
+	height: '50px',
+	padding: '8px',
+	background: '#282828',
 	fontSize: '20px',
 	fontFamily: 'Frijole',
 	borderBottom: 'solid 1px #E5008D'

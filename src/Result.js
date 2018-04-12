@@ -4,7 +4,7 @@ import { Button, Row, Col, MenuItem } from 'react-bootstrap';
 const styles = {
 	background: 'rgba(0, 0, 0, .4)',
 	padding: '20px',
-	border: 'solid black 1px',
+	border: 'solid #282828 1px',
 	marginTop: '10px'
 }
 let drinks = require('./drinks.json');

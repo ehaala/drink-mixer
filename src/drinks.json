@@ -7,13 +7,16 @@
         "Orange Juice",
         "Vodka"
       ]
-    }, {
+    } , {
       "id": 2,
-      "name": "Vodka Red Bull",
-      "image": "http://www.shakeitdrinkit.com/recette/vodka-redbull-cocktail-649.png",
+      "name": "Long Island Iced Tea",
+      "image": "http://www.shakeitdrinkit.com/recette/long-island-iced-tea-cocktail-1233.png",
       "ingredients": [
-        "Red Bull",
-        "Vodka"
+        "Gin",
+        "Vodka",
+        "Rum",
+        "Tequila",
+        "Lemon Juice"
       ]
     }, {
       "id": 3,
@@ -79,6 +82,35 @@
         "Lemon Juice",
         "Pineapple Juice",
         "Grenadine"
+      ]
+    } , {
+      "id": 10,
+      "name": "Tropic",
+      "image": "http://www.shakeitdrinkit.com/recette/tropic-cocktail-597.png",
+      "ingredients": [
+        "Rum",
+        "Orange Juice",
+        "Pineapple Juice",
+        "Malibu"
+      ]
+    } , {
+      "id": 11,
+      "name": "Tequila Sunrise",
+      "image": "http://www.shakeitdrinkit.com/recette/tequila-sunrise-cocktail-585.png",
+      "ingredients": [
+        "Tequila",
+        "Orange Juice",
+        "Grenadine"
+      ]
+    } , {
+      "id": 12,
+      "name": "Matador",
+      "image": "http://www.shakeitdrinkit.com/recette/matador-cocktail-1116.png",
+      "ingredients": [
+        "Tequila",
+        "Triple Sec",
+        "Lime Juice",
+        "Pineapple Juice"
       ]
     }
 ]

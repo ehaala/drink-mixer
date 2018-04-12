@@ -14,10 +14,22 @@
     }, {
     	"id": 4,
     	"name": "Gin",
-    	"url": "http://www.liquorwicks.com/wp-content/uploads/2015/06/3-500x650.jpg"
+    	"url": "https://images-na.ssl-images-amazon.com/images/I/61WBUY02tOL._SX342_.jpg"
     }, {
       "id": 5,
       "name": "Pineapple Juice",
       "url": "http://www.fieldfresh.co.ke/wp-content/uploads/1970/01/pineapple-juice.jpg"
+    }, {
+      "id": 6,
+      "name": "Rum",
+      "url": "http://www.thespiritsbusiness.com/content/http://www.thespiritsbusiness.com/media/2015/02/Bacardi-bottle-redesign.jpg"
+    }, {
+      "id": 7,
+      "name": "Tequila",
+      "url": "https://www.31dover.com/media/catalog/product/cache/1/image/85e4522595efc69f496374d01ef2bf13/s/i/silver-main-img.jpg"
+    }, {
+      "id": 8,
+      "name": "Lemon Juice",
+      "url": "http://www.lematecocktailmix.com/wp-content/uploads/2015/04/RealLemon.gif"
     }
 ]

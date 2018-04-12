@@ -64,6 +64,8 @@ class SelectOptions extends Component {
 	      			<option value="null" id="null">Select Type</option>
 	      			<option value="Vodka" id="Vodka">Vodka</option>
 	      			<option value="Gin" id="Gin">Gin</option>
+	      			<option value="Rum" id="Rum">Rum</option>
+	      			<option value="Tequila" id="Tequila">Tequila</option>
 	      		</select>
 	      	</fieldset>
 	      	<hr />
@@ -78,7 +80,7 @@ class SelectOptions extends Component {
 	      			<option value="null" id="null">Select Type</option>
 	      			<option value="Orange Juice" id="Orange Juice">Orange Juice</option>
 	      			<option value="Pineapple Juice" id="Pineapple Juice">Pineapple Juice</option>
-	      			<option value="Red Bull" id="Red Bull">Red Bull</option>
+	      			<option value="Lemon Juice" id="Lemon Juice">Lemon Juice</option>
 	      		</select>
 	      	</fieldset>
 	      	<hr />
