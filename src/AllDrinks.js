@@ -20,7 +20,7 @@ class AllDrinks extends Component {
 			<Col xs={12} sm={10}>
 				<Row>
 					{drinks.map((drink, i) => 
-						<Col xs={12} sm={12} key={'drink_' + i}>
+						<Col xs={6} sm={4} key={'drink_' + i}>
 							<OneDrink name={drink.name} image={drink.image} />
 						</Col>
 					)}
