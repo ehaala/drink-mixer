@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Button, Row, Col, MenuItem } from 'react-bootstrap';
 
+import OneDrink from './OneDrink';
+
 let drinks = require('./drinks.json');
 
 class AllDrinks extends Component {
@@ -18,9 +20,8 @@ class AllDrinks extends Component {
 			<Col xs={12} sm={10}>
 				<Row>
 					{drinks.map((drink, i) => 
-						<Col xs={6} sm={3} key={'drink_' + i}>
-							<p>{drink.name}</p>
-							<img src={drink.image} className="ingredientPic"/>
+						<Col xs={12} sm={12} key={'drink_' + i}>
+							<OneDrink name={drink.name} image={drink.image} />
 						</Col>
 					)}
 				</Row>
